@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+.item {
+    background-color: aqua;
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+}
+
+.box {
+    display: flex;
+    /* flex-wrap: ここを変更; */
+    justify-content: center;
+}

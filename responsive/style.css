@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+
+/* メインとなるPC用のレイアウトと、各デバイスの共通レイアウトを記述 */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #3498DB;
+}
+
+p {
+    background-color: aliceblue;
+    padding: 5px;
+    width: 50%;
+}
+
+img {
+    object-fit: contain;
+}
+
+.content {
+    display: flex;
+}
+
+/* PC用（画面幅961px以上は、以下を適用）
+@media screen and (min-width:960px) {
+    body {
+        background-color: #3498DB;
+    }
+} */
+
+/* タブレット用（画面幅429pxから960px以上は、以下を適用） */
+@media screen and (min-width:429px) and (max-width:960px) {
+    body {
+        background-color: aquamarine;
+    }
+
+    p {
+        width: 80%;
+    }
+
+    img {
+        width: 20%;
+    }
+}
+
+/* スマホ用（画面幅428px以上は、以下を適用） */
+@media screen and (max-width:428px) {
+    body {
+        background-color: aliceblue;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+
+    p {
+        width: 100%;
+    }
+}

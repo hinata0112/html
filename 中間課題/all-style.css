@@ -1,0 +1,123 @@
+@charset "utl-8";
+
+/* ヘッダー */
+
+.sitehead_inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sitehead_right p {
+    margin: 35px 40px 0 0;
+}
+
+header,
+footer {
+    padding: 0.5rem;
+    background-color: gray;
+}
+
+.sitehead_left {
+    text-align: left;
+    margin: 1%;
+}
+
+.sitehead_left img {
+    width: 80%;
+    height: 110%;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0px;
+}
+
+header nav ul li {
+    width: 20%;
+    text-align: center;
+}
+
+header ul li+li {
+    border-left: 2px solid white;
+}
+
+.breadcrumbs {
+    list-style: none;
+    display: flex;
+}
+
+.breadcrumbs li::after {
+    content: "-";
+    padding: 0 0.5rem;
+}
+
+.breadcrumbs li:last-child::after {
+    content: "";
+}
+
+.breadcrumbs li a:link {
+    color: black;
+}
+
+.breadcrumbs li a:visited {
+    color: black;
+}
+
+body {
+    font-family: 'Yuji Syuku', serif;
+    color: black;
+    margin: 0%;
+    font-size: 1.3rem;
+}
+
+h1 {
+    color: black;
+    margin: 2% 0% 0% 1%;
+    background-color: white;
+}
+
+/* ここから下はfooter部分 */
+
+main {
+    margin: 3%;
+    text-align: center;
+    width: 50%;
+}
+
+
+.footer1 {
+    width: 50%;
+}
+
+.footer2 {
+    margin: 0%;
+    justify-content: left;
+    padding: 6% 0% 4%;
+}
+
+.container {
+    display: flex;
+}
+
+.box {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    width: 100%;
+}
+
+.img {
+    text-align: right;
+}
+
+.box img {
+    width: 5%;
+}
+
+.div {
+    justify-content: center;
+}

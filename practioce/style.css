@@ -1,0 +1,47 @@
+@charset "utl-8";
+
+h1 {
+    color : #000FFF;
+ }
+body {
+    background-color : #00FFFF;
+    font-family : "HGS教科書体", "游明朝", serif;
+    background-image : url(img/bg-img.jpg);
+    background-size : contain;
+ }
+li, td {
+    font-size : 20px;
+ }
+ol {
+    border : solid 3px blue;
+    border-radius : 10px;
+ }
+table, th, td {
+    background-color : rgba (100, 189, 178, 0.7);
+    border : solid 1px black;
+    border-collapse : collapse;
+    margin-bottom : 20px;
+ }
+th, td {
+    padding : 10px;
+}
+ul {
+    margin : 50px;
+}
+h2 {
+    border-left : dotted 6px red;
+ }
+ul li {
+    list-style-image : url ("img/marker.png");
+}
+ol li {
+    list-style-type : square;
+    list-style-position : inside;
+}
+img {
+    width : 50%;
+    width : 300px;
+    height : 300px;
+}
+
+

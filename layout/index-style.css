@@ -1,0 +1,32 @@
+@charset "utl-8";
+
+main {
+    background-color: #8DC859;
+    padding: 0.5rem;
+    width: 70%;
+}
+
+aside {
+    background-color: #CBDE96;
+    padding: 0.5rem;
+    width: 30%;
+}
+
+.container {
+    display: flex;
+}
+
+main article {
+    background-color: #F2F2F2;
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+}
+
+main section {
+    padding: 0.5rem;
+}
+
+main article th {
+    padding: 0.5rem;
+    text-align: left;
+}

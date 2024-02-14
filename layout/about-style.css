@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+main {
+    width: 50%;
+    margin: 0 auto;
+}
+
+frame {
+    margin: 2rem;
+}
+
+.floot-left {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 50%;
+    float: left;
+}
+
+h1 {
+    margin-bottom: 0.8rem;
+}
+
+h2 {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border-bottom: 3px solid aqua;
+    border-top: 3px solid aqua;
+}
+
+.frame {
+    margin-bottom: 2rem;
+    display: flow-root;
+}
+
+.frame p {
+    line-height: 1.6;
+    letter-spacing: 0.05em;
+}

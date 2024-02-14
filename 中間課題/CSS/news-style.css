@@ -1,0 +1,117 @@
+@charset "utf-8";
+
+
+h2 {
+    margin: 50px 0px 0px 0px;
+    text-align: center;
+}
+
+.紛争 {
+    margin: 0% 20%;
+}
+
+p {
+    margin: 0% 20% 10%;
+    font-size: 1.3rem;
+    line-height: 1.8888;
+}
+
+.news {
+    display: flex;
+    list-style: none;
+}
+
+.内容 {
+    text-align: center;
+    margin: 10% 0% 0%;
+}
+
+.内容 a:hover {
+    text-decoration: none;
+}
+
+.header1 a:hover {
+    text-decoration: none;
+}
+
+/* topに戻るボタン */
+
+#page_top {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    background: black;
+    opacity: 0.6;
+}
+
+#page_top a {
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+}
+
+#page_top a::before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: '\f102';
+    font-size: 25px;
+    color: #fff;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 0;
+    bottom: 10px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    text-align: center;
+}
+
+/* ここから下はfooter部分 */
+
+main {
+    margin: 3%;
+    text-align: center;
+    width: 50%;
+}
+
+
+.footer1 {
+    width: 50%;
+}
+
+.footer2 {
+    margin: 0%;
+    justify-content: left;
+    padding: 6% 0% 4%;
+}
+
+.container {
+    display: flex;
+}
+
+.box {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    width: 100%;
+}
+
+.img {
+    text-align: right;
+}
+
+.box img {
+    width: 5%;
+}
+
+.div {
+    justify-content: center;
+}

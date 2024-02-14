@@ -1,0 +1,61 @@
+@charset "utl-8";
+
+header,
+footer {
+    background-color: rgb(135, 210, 210);
+    padding: 0.5rem;
+}
+
+header {
+    width: 100%;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0px;
+}
+
+header nav ul li {
+    width: 20%;
+    text-align: center;
+}
+
+header ul li a {
+    display: block;
+    padding: 0.5rem;
+    color: #00552e;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+body {
+    min-width: 700px;
+    font-family: 'Yuji Syuku', serif;
+}
+
+header ul li+li {
+    border-left: 2px solid #00552e;
+}
+
+.breadcrumbs {
+    list-style: none;
+    display: flex;
+}
+
+.breadcrumbs li::after {
+    content: ">";
+    padding: 0 0.5rem;
+}
+
+.breadcrumbs li:last-child::after {
+    content: "";
+}
+
+.breadcrumbs li a:link {
+    color: #55AA83;
+}
+
+.breadcrumbs li a:visited {
+    color: #00552e;
+}
